@@ -1,0 +1,261 @@
+[W 2024-01-19 13:32:43.956 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[W 2024-01-19 13:32:44.049 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-01-19 13:32:44.050 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-01-19 13:32:44.054 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2024-01-19 13:32:44.058 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-01-19 13:32:44.064 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-01-19 13:32:44.064 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2024-01-19 13:32:44.064 ServerApp] nbdime | extension was successfully linked.
+[I 2024-01-19 13:32:44.516 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-01-19 13:32:44.563 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-01-19 13:32:44.566 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-01-19 13:32:44.567 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2024-01-19 13:32:44.568 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-01-19 13:32:44.575 LabApp] JupyterLab extension loaded from /Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyterlab
+[I 2024-01-19 13:32:44.575 LabApp] JupyterLab application directory is /Users/liuhuang/Library/Python/3.8/share/jupyter/lab
+[I 2024-01-19 13:32:44.576 LabApp] Extension Manager is 'pypi'.
+[I 2024-01-19 13:32:44.579 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-01-19 13:32:44.585 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2024-01-19 13:32:44.727 ServerApp] nbdime | extension was successfully loaded.
+[I 2024-01-19 13:32:44.729 ServerApp] Serving notebooks from local directory: /Users/liuhuang/learn/code/codelearn
+[I 2024-01-19 13:32:44.729 ServerApp] Jupyter Server 2.12.4 is running at:
+[I 2024-01-19 13:32:44.729 ServerApp] http://localhost:8888/lab?token=be56aa751a7bb36a4db7037d52057bc6d1bc906515954527
+[I 2024-01-19 13:32:44.729 ServerApp]     http://127.0.0.1:8888/lab?token=be56aa751a7bb36a4db7037d52057bc6d1bc906515954527
+[I 2024-01-19 13:32:44.729 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-01-19 13:32:44.738 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///Users/liuhuang/Library/Jupyter/runtime/jpserver-60015-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=be56aa751a7bb36a4db7037d52057bc6d1bc906515954527
+        http://127.0.0.1:8888/lab?token=be56aa751a7bb36a4db7037d52057bc6d1bc906515954527
+[I 2024-01-19 13:32:45.509 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-01-19 13:32:46.051 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d?1705642366045 (::1): Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d
+[W 2024-01-19 13:32:46.051 ServerApp] wrote error: 'Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d)
+[W 2024-01-19 13:32:46.069 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d?1705642366045 (3f291f1d92b64b2da22ebd0886746acf@::1) 19.57ms referer=http://localhost:8888/lab/tree/algo/math/matrix.ipynb
+[W 2024-01-19 13:32:46.510 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d/channels?session_id=e1f1b760-c225-4ee9-8184-7eb91b689d72 (::1): Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d
+[W 2024-01-19 13:32:46.534 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d/channels?session_id=e1f1b760-c225-4ee9-8184-7eb91b689d72 (3f291f1d92b64b2da22ebd0886746acf@::1) 24.96ms referer=None
+[W 2024-01-19 13:32:46.538 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d?1705642366535 (::1): Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d
+[W 2024-01-19 13:32:46.538 ServerApp] wrote error: 'Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d)
+[W 2024-01-19 13:32:46.538 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d?1705642366535 (3f291f1d92b64b2da22ebd0886746acf@::1) 1.26ms referer=http://localhost:8888/lab/tree/algo/math/matrix.ipynb
+[W 2024-01-19 13:32:49.184 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d/channels?session_id=e1f1b760-c225-4ee9-8184-7eb91b689d72 (::1): Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d
+[W 2024-01-19 13:32:49.184 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d/channels?session_id=e1f1b760-c225-4ee9-8184-7eb91b689d72 (3f291f1d92b64b2da22ebd0886746acf@::1) 4.49ms referer=None
+[W 2024-01-19 13:32:49.193 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d?1705642369185 (::1): Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d
+[W 2024-01-19 13:32:49.194 ServerApp] wrote error: 'Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 75548dd4-6c88-49e8-bbb2-c1b34f34ed0d)
+[W 2024-01-19 13:32:49.194 ServerApp] 404 GET /api/kernels/75548dd4-6c88-49e8-bbb2-c1b34f34ed0d?1705642369185 (3f291f1d92b64b2da22ebd0886746acf@::1) 1.41ms referer=http://localhost:8888/lab/tree/algo/math/matrix.ipynb
+[I 2024-01-19 13:32:51.981 LabApp] Build is up to date
+[W 2024-01-19 13:32:53.060 ServerApp] 404 GET /api/kernels/c37b0ebb-c6bd-4cd8-8d43-cb1a38bb47d0?1705642373055 (::1): Kernel does not exist: c37b0ebb-c6bd-4cd8-8d43-cb1a38bb47d0
+[W 2024-01-19 13:32:53.061 ServerApp] wrote error: 'Kernel does not exist: c37b0ebb-c6bd-4cd8-8d43-cb1a38bb47d0'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: c37b0ebb-c6bd-4cd8-8d43-cb1a38bb47d0)
+[W 2024-01-19 13:32:53.062 ServerApp] 404 GET /api/kernels/c37b0ebb-c6bd-4cd8-8d43-cb1a38bb47d0?1705642373055 (3f291f1d92b64b2da22ebd0886746acf@::1) 2.03ms referer=http://localhost:8888/lab/tree/algo/math/matrix.ipynb
+[I 2024-01-19 13:33:11.493 LabApp] Build is up to date
+[I 2024-01-19 13:33:11.986 ServerApp] Kernel started: a359b859-cbd9-4efb-8e9d-f106b5cda1dc
+[I 2024-01-19 13:33:12.017 ServerApp] Kernel started: 5a0ed233-0731-4260-a9af-6eead3036184
+[I 2024-01-19 13:33:12.039 ServerApp] Kernel started: d0470390-ec06-4029-ab17-a14d0c3b6ad7
+[I 2024-01-19 13:33:12.832 ServerApp] Connecting to kernel a359b859-cbd9-4efb-8e9d-f106b5cda1dc.
+[I 2024-01-19 13:33:12.834 ServerApp] Connecting to kernel a359b859-cbd9-4efb-8e9d-f106b5cda1dc.
+[I 2024-01-19 13:33:12.852 ServerApp] Connecting to kernel 5a0ed233-0731-4260-a9af-6eead3036184.
+[I 2024-01-19 13:33:12.855 ServerApp] Connecting to kernel 5a0ed233-0731-4260-a9af-6eead3036184.
+[I 2024-01-19 13:33:12.887 ServerApp] Connecting to kernel d0470390-ec06-4029-ab17-a14d0c3b6ad7.
+[I 2024-01-19 13:33:12.889 ServerApp] Connecting to kernel d0470390-ec06-4029-ab17-a14d0c3b6ad7.
+[I 2024-01-19 13:33:12.915 ServerApp] Connecting to kernel d0470390-ec06-4029-ab17-a14d0c3b6ad7.
+[W 2024-01-19 13:33:12.950 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x10b70faf0>
+[I 2024-01-19 13:33:16.789 ServerApp] Connecting to kernel d0470390-ec06-4029-ab17-a14d0c3b6ad7.
+[I 2024-01-19 13:33:29.984 ServerApp] interrupted
+[I 2024-01-19 13:33:29.984 ServerApp] Serving notebooks from local directory: /Users/liuhuang/learn/code/codelearn
+    3 active kernels
+    Jupyter Server 2.12.4 is running at:
+    http://localhost:8888/lab?token=be56aa751a7bb36a4db7037d52057bc6d1bc906515954527
+        http://127.0.0.1:8888/lab?token=be56aa751a7bb36a4db7037d52057bc6d1bc906515954527
+Shutdown this Jupyter server (y/[n])? [I 2024-01-19 13:33:31.377 ServerApp] resuming operation...
+[I 2024-01-19 13:33:32.410 ServerApp] interrupted
+[I 2024-01-19 13:33:32.411 ServerApp] Serving notebooks from local directory: /Users/liuhuang/learn/code/codelearn
+    3 active kernels
+    Jupyter Server 2.12.4 is running at:
+    http://localhost:8888/lab?token=be56aa751a7bb36a4db7037d52057bc6d1bc906515954527
+        http://127.0.0.1:8888/lab?token=be56aa751a7bb36a4db7037d52057bc6d1bc906515954527
+Shutdown this Jupyter server (y/[n])? [C 2024-01-19 13:33:32.806 ServerApp] received signal 2, stopping
+[I 2024-01-19 13:33:32.808 ServerApp] Shutting down 7 extensions
+[I 2024-01-19 13:33:32.808 ServerApp] Shutting down 3 kernels
+[I 2024-01-19 13:33:32.809 ServerApp] Kernel shutdown: a359b859-cbd9-4efb-8e9d-f106b5cda1dc
+[I 2024-01-19 13:33:32.809 ServerApp] Kernel shutdown: d0470390-ec06-4029-ab17-a14d0c3b6ad7
+[I 2024-01-19 13:33:32.809 ServerApp] Kernel shutdown: 5a0ed233-0731-4260-a9af-6eead3036184
+[W 2024-01-19 13:33:45.848 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[W 2024-01-19 13:33:45.897 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-01-19 13:33:45.898 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-01-19 13:33:45.903 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2024-01-19 13:33:45.908 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-01-19 13:33:45.915 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-01-19 13:33:45.915 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2024-01-19 13:33:45.915 ServerApp] nbdime | extension was successfully linked.
+[I 2024-01-19 13:33:46.187 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-01-19 13:33:46.222 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-01-19 13:33:46.225 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-01-19 13:33:46.226 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2024-01-19 13:33:46.227 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-01-19 13:33:46.232 LabApp] JupyterLab extension loaded from /Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyterlab
+[I 2024-01-19 13:33:46.232 LabApp] JupyterLab application directory is /Users/liuhuang/Library/Python/3.8/share/jupyter/lab
+[I 2024-01-19 13:33:46.233 LabApp] Extension Manager is 'pypi'.
+[I 2024-01-19 13:33:46.236 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-01-19 13:33:46.242 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2024-01-19 13:33:46.321 ServerApp] nbdime | extension was successfully loaded.
+[I 2024-01-19 13:33:46.323 ServerApp] Serving notebooks from local directory: /Users/liuhuang/learn/code/codelearn
+[I 2024-01-19 13:33:46.323 ServerApp] Jupyter Server 2.12.4 is running at:
+[I 2024-01-19 13:33:46.323 ServerApp] http://localhost:8888/lab?token=516beb501b8a5c87c2eec78aca4ede21495eda803c328c8c
+[I 2024-01-19 13:33:46.323 ServerApp]     http://127.0.0.1:8888/lab?token=516beb501b8a5c87c2eec78aca4ede21495eda803c328c8c
+[I 2024-01-19 13:33:46.323 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-01-19 13:33:46.333 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///Users/liuhuang/Library/Jupyter/runtime/jpserver-60142-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=516beb501b8a5c87c2eec78aca4ede21495eda803c328c8c
+        http://127.0.0.1:8888/lab?token=516beb501b8a5c87c2eec78aca4ede21495eda803c328c8c
+[I 2024-01-19 13:33:46.968 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-01-19 13:33:50.246 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7?1705642430205 (::1): Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7
+[W 2024-01-19 13:33:50.247 ServerApp] wrote error: 'Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7)
+[W 2024-01-19 13:33:50.258 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7?1705642430205 (3f291f1d92b64b2da22ebd0886746acf@::1) 21.53ms referer=http://localhost:8888/lab/tree/algo/math
+[W 2024-01-19 13:33:52.209 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7/channels?session_id=d0e6c1e2-090f-4293-be78-88aaa5452156 (::1): Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7
+[W 2024-01-19 13:33:52.229 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7/channels?session_id=d0e6c1e2-090f-4293-be78-88aaa5452156 (3f291f1d92b64b2da22ebd0886746acf@::1) 20.66ms referer=None
+[W 2024-01-19 13:33:52.231 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc?1705642432205 (::1): Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc
+[W 2024-01-19 13:33:52.231 ServerApp] wrote error: 'Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc)
+[W 2024-01-19 13:33:52.232 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc?1705642432205 (3f291f1d92b64b2da22ebd0886746acf@::1) 1.89ms referer=http://localhost:8888/lab/tree/algo/math
+[W 2024-01-19 13:33:52.233 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7?1705642432230 (::1): Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7
+[W 2024-01-19 13:33:52.233 ServerApp] wrote error: 'Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7)
+[W 2024-01-19 13:33:52.234 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7?1705642432230 (3f291f1d92b64b2da22ebd0886746acf@::1) 1.18ms referer=http://localhost:8888/lab/tree/algo/math
+[W 2024-01-19 13:33:53.213 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc/channels?session_id=068cf7f3-9e7c-4547-b71b-24b983aa9fb9 (::1): Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc
+[W 2024-01-19 13:33:53.215 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc/channels?session_id=068cf7f3-9e7c-4547-b71b-24b983aa9fb9 (3f291f1d92b64b2da22ebd0886746acf@::1) 4.10ms referer=None
+[W 2024-01-19 13:33:53.226 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc?1705642433216 (::1): Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc
+[W 2024-01-19 13:33:53.226 ServerApp] wrote error: 'Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc)
+[W 2024-01-19 13:33:53.227 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc?1705642433216 (3f291f1d92b64b2da22ebd0886746acf@::1) 2.12ms referer=http://localhost:8888/lab/tree/algo/math
+[I 2024-01-19 13:33:53.627 LabApp] Build is up to date
+[W 2024-01-19 13:33:54.213 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc/channels?session_id=068cf7f3-9e7c-4547-b71b-24b983aa9fb9 (::1): Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc
+[W 2024-01-19 13:33:54.215 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc/channels?session_id=068cf7f3-9e7c-4547-b71b-24b983aa9fb9 (3f291f1d92b64b2da22ebd0886746acf@::1) 2.50ms referer=None
+[W 2024-01-19 13:33:54.220 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc?1705642434215 (::1): Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc
+[W 2024-01-19 13:33:54.221 ServerApp] wrote error: 'Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: a359b859-cbd9-4efb-8e9d-f106b5cda1dc)
+[W 2024-01-19 13:33:54.221 ServerApp] 404 GET /api/kernels/a359b859-cbd9-4efb-8e9d-f106b5cda1dc?1705642434215 (3f291f1d92b64b2da22ebd0886746acf@::1) 1.71ms referer=http://localhost:8888/lab/tree/algo/math
+[W 2024-01-19 13:33:55.210 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7/channels?session_id=d0e6c1e2-090f-4293-be78-88aaa5452156 (::1): Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7
+[W 2024-01-19 13:33:55.212 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7/channels?session_id=d0e6c1e2-090f-4293-be78-88aaa5452156 (3f291f1d92b64b2da22ebd0886746acf@::1) 2.79ms referer=None
+[W 2024-01-19 13:33:55.216 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7?1705642435212 (::1): Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7
+[W 2024-01-19 13:33:55.216 ServerApp] wrote error: 'Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7'
+    Traceback (most recent call last):
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/handlers.py", line 74, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 500, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/Users/liuhuang/Library/Python/3.8/lib/python/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 531, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7)
+[W 2024-01-19 13:33:55.217 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7?1705642435212 (3f291f1d92b64b2da22ebd0886746acf@::1) 1.62ms referer=http://localhost:8888/lab/tree/algo/math
+[I 2024-01-19 13:34:55.154 ServerApp] New terminal with automatic name: 1
