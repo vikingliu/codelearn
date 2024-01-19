@@ -259,3 +259,305 @@ Shutdown this Jupyter server (y/[n])? [C 2024-01-19 13:33:32.806 ServerApp] rece
     tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: d0470390-ec06-4029-ab17-a14d0c3b6ad7)
 [W 2024-01-19 13:33:55.217 ServerApp] 404 GET /api/kernels/d0470390-ec06-4029-ab17-a14d0c3b6ad7?1705642435212 (3f291f1d92b64b2da22ebd0886746acf@::1) 1.62ms referer=http://localhost:8888/lab/tree/algo/math
 [I 2024-01-19 13:34:55.154 ServerApp] New terminal with automatic name: 1
+[W 2024-01-19 14:13:25.679 ServerApp] delete /ml/nn/ffnn.py
+[I 2024-01-19 14:14:45.514 ServerApp] Kernel started: 0a2285b3-dbe4-488d-8d18-04b58f42cdb7
+[I 2024-01-19 14:14:46.552 ServerApp] Connecting to kernel 0a2285b3-dbe4-488d-8d18-04b58f42cdb7.
+[I 2024-01-19 14:14:46.555 ServerApp] Connecting to kernel 0a2285b3-dbe4-488d-8d18-04b58f42cdb7.
+[I 2024-01-19 14:14:46.573 ServerApp] Connecting to kernel 0a2285b3-dbe4-488d-8d18-04b58f42cdb7.
+[I 2024-01-19 14:27:13.663 ServerApp] Kernel started: 4a84be57-d60d-4036-868b-5218c036973a
+[I 2024-01-19 14:27:14.689 ServerApp] Connecting to kernel 4a84be57-d60d-4036-868b-5218c036973a.
+[I 2024-01-19 14:27:16.400 ServerApp] Creating new notebook in /algo/math
+[I 2024-01-19 14:27:16.930 ServerApp] Kernel started: a4d36aff-4e16-4324-aa40-e00a64f246ec
+[I 2024-01-19 14:27:17.696 ServerApp] Connecting to kernel a4d36aff-4e16-4324-aa40-e00a64f246ec.
+[I 2024-01-19 14:27:51.029 ServerApp] Kernel shutdown: a4d36aff-4e16-4324-aa40-e00a64f246ec
+[W 2024-01-19 14:27:51.262 ServerApp] delete /algo/math/svd.ipynb
+[I 2024-01-19 14:28:05.278 ServerApp] Kernel started: 54958526-0c79-4d6b-a94f-17896f2fd958
+[I 2024-01-19 14:28:05.970 ServerApp] Connecting to kernel 54958526-0c79-4d6b-a94f-17896f2fd958.
+[I 2024-01-19 14:30:06.192 ServerApp] Saving file at /ml/rec/page_rank.ipynb
+[I 2024-01-19 14:53:20.292 ServerApp] Creating new notebook in /ml/rec
+[I 2024-01-19 14:53:20.800 ServerApp] Kernel started: 99efa960-06f7-443b-9f48-5a09d1fbdc4c
+[I 2024-01-19 14:53:21.932 ServerApp] Connecting to kernel 99efa960-06f7-443b-9f48-5a09d1fbdc4c.
+[I 2024-01-19 14:53:36.912 ServerApp] Creating new notebook in /ml/rec
+[I 2024-01-19 14:53:37.417 ServerApp] Kernel started: 41575b6a-c550-4d9f-8da7-ed9bccafc21b
+[I 2024-01-19 14:53:38.453 ServerApp] Connecting to kernel 41575b6a-c550-4d9f-8da7-ed9bccafc21b.
+[I 2024-01-19 14:54:32.988 ServerApp] Creating new notebook in /ml/rec
+[I 2024-01-19 14:54:33.547 ServerApp] Kernel started: 960411f5-d0ca-4ce7-acb6-4276d131c6d1
+[I 2024-01-19 14:54:34.534 ServerApp] Connecting to kernel 960411f5-d0ca-4ce7-acb6-4276d131c6d1.
+[I 2024-01-19 14:54:52.205 ServerApp] Creating new notebook in /ml/rec
+[I 2024-01-19 14:54:52.758 ServerApp] Kernel started: 89fbf4e3-6df6-488a-96ee-1c1184512f10
+[I 2024-01-19 14:54:53.588 ServerApp] Connecting to kernel 89fbf4e3-6df6-488a-96ee-1c1184512f10.
+[I 2024-01-19 14:55:20.663 ServerApp] Saving file at /ml/rec/swing.ipynb
+[I 2024-01-19 14:55:22.970 ServerApp] Creating new notebook in /ml/rec
+[I 2024-01-19 14:55:23.527 ServerApp] Kernel started: 17af5adc-b1f2-444b-adf4-29eb4c0ef186
+[I 2024-01-19 14:55:24.231 ServerApp] Connecting to kernel 17af5adc-b1f2-444b-adf4-29eb4c0ef186.
+[I 2024-01-19 14:55:33.985 ServerApp] Creating new notebook in /ml/rec
+[I 2024-01-19 14:55:34.534 ServerApp] Kernel started: 65828258-ffe5-4e7e-ad6f-36a9d965f9ee
+[I 2024-01-19 14:55:35.241 ServerApp] Connecting to kernel 65828258-ffe5-4e7e-ad6f-36a9d965f9ee.
+[I 2024-01-19 14:55:37.333 ServerApp] Saving file at /ml/rec/user_base.ipynb
+[I 2024-01-19 14:55:44.956 ServerApp] Creating new notebook in /ml/rec
+[I 2024-01-19 14:55:45.583 ServerApp] Kernel started: 013e159d-303f-446d-9b5a-39aeb0c7c748
+[I 2024-01-19 14:55:46.435 ServerApp] Connecting to kernel 013e159d-303f-446d-9b5a-39aeb0c7c748.
+[I 2024-01-19 14:55:55.121 ServerApp] Creating new notebook in /ml/rec
+[I 2024-01-19 14:55:55.724 ServerApp] Kernel started: 1a635cee-db61-4fb5-bf18-34f75ca1f1de
+[I 2024-01-19 14:55:56.749 ServerApp] Connecting to kernel 1a635cee-db61-4fb5-bf18-34f75ca1f1de.
+[I 2024-01-19 14:56:33.422 ServerApp] Saving file at /ml/rec/DSSM.ipynb
+[I 2024-01-19 14:56:52.606 ServerApp] Saving file at /ml/rec/ESMM.ipynb
+[I 2024-01-19 14:57:23.403 ServerApp] Saving file at /ml/rec/LHUC.ipynb
+[I 2024-01-19 14:57:34.404 ServerApp] Saving file at /ml/rec/PLE.ipynb
+[I 2024-01-19 14:57:45.445 ServerApp] Saving file at /ml/rec/SIM.ipynb
+[I 2024-01-19 14:57:55.579 ServerApp] Saving file at /ml/rec/DIN.ipynb
+[I 2024-01-19 15:21:27.033 ServerApp] Starting buffering for 1a635cee-db61-4fb5-bf18-34f75ca1f1de:783c8df0-6094-46de-b980-c2e62be5adef
+[I 2024-01-19 15:21:27.036 ServerApp] Starting buffering for 013e159d-303f-446d-9b5a-39aeb0c7c748:bb9714b0-09c2-44cd-a56d-33ffa8bc51c1
+[I 2024-01-19 15:21:27.057 ServerApp] Starting buffering for 65828258-ffe5-4e7e-ad6f-36a9d965f9ee:5073e655-b2ef-403b-ad30-46e026dc5b49
+[I 2024-01-19 15:21:27.059 ServerApp] Starting buffering for 17af5adc-b1f2-444b-adf4-29eb4c0ef186:a611a67e-8052-415e-adf7-72a63456c62f
+[I 2024-01-19 15:21:27.060 ServerApp] Starting buffering for 960411f5-d0ca-4ce7-acb6-4276d131c6d1:2f4d0952-c055-42b5-8bf0-957fc50235f2
+[I 2024-01-19 15:21:27.061 ServerApp] Starting buffering for 41575b6a-c550-4d9f-8da7-ed9bccafc21b:4692b866-0764-41af-a3f1-7fa662564ee9
+[I 2024-01-19 15:21:27.062 ServerApp] Starting buffering for 99efa960-06f7-443b-9f48-5a09d1fbdc4c:adf4af8b-9d3b-432a-a870-9a0be065f162
+[I 2024-01-19 15:21:27.064 ServerApp] Starting buffering for 54958526-0c79-4d6b-a94f-17896f2fd958:7d4d02a7-9bec-41ff-aceb-c1324ec842c7
+[I 2024-01-19 15:21:27.066 ServerApp] Starting buffering for 4a84be57-d60d-4036-868b-5218c036973a:d9d9bc0f-19b5-4312-8128-72bd6da122ae
+[I 2024-01-19 15:21:27.067 ServerApp] Starting buffering for 0a2285b3-dbe4-488d-8d18-04b58f42cdb7:4f639203-5c17-48b9-854b-fdd08bfb1467
+[I 2024-01-19 15:21:27.089 ServerApp] Starting buffering for 89fbf4e3-6df6-488a-96ee-1c1184512f10:aedb4a5a-bfd6-401d-ba9d-cf0426db3b55
+[I 2024-01-19 15:21:27.094 ServerApp] Connecting to kernel 1a635cee-db61-4fb5-bf18-34f75ca1f1de.
+[I 2024-01-19 15:21:27.121 ServerApp] Restoring connection for 1a635cee-db61-4fb5-bf18-34f75ca1f1de:783c8df0-6094-46de-b980-c2e62be5adef
+[I 2024-01-19 15:21:27.147 ServerApp] Connecting to kernel 013e159d-303f-446d-9b5a-39aeb0c7c748.
+[I 2024-01-19 15:21:27.147 ServerApp] Restoring connection for 013e159d-303f-446d-9b5a-39aeb0c7c748:bb9714b0-09c2-44cd-a56d-33ffa8bc51c1
+[I 2024-01-19 15:21:27.194 ServerApp] Connecting to kernel 65828258-ffe5-4e7e-ad6f-36a9d965f9ee.
+[I 2024-01-19 15:21:27.194 ServerApp] Restoring connection for 65828258-ffe5-4e7e-ad6f-36a9d965f9ee:5073e655-b2ef-403b-ad30-46e026dc5b49
+[I 2024-01-19 15:21:27.270 ServerApp] Connecting to kernel 17af5adc-b1f2-444b-adf4-29eb4c0ef186.
+[I 2024-01-19 15:21:27.270 ServerApp] Restoring connection for 17af5adc-b1f2-444b-adf4-29eb4c0ef186:a611a67e-8052-415e-adf7-72a63456c62f
+[I 2024-01-19 15:21:27.314 ServerApp] Connecting to kernel 960411f5-d0ca-4ce7-acb6-4276d131c6d1.
+[I 2024-01-19 15:21:27.314 ServerApp] Restoring connection for 960411f5-d0ca-4ce7-acb6-4276d131c6d1:2f4d0952-c055-42b5-8bf0-957fc50235f2
+[I 2024-01-19 15:21:27.337 ServerApp] Connecting to kernel 41575b6a-c550-4d9f-8da7-ed9bccafc21b.
+[I 2024-01-19 15:21:27.338 ServerApp] Restoring connection for 41575b6a-c550-4d9f-8da7-ed9bccafc21b:4692b866-0764-41af-a3f1-7fa662564ee9
+[I 2024-01-19 15:21:27.370 ServerApp] Connecting to kernel 54958526-0c79-4d6b-a94f-17896f2fd958.
+[I 2024-01-19 15:21:27.371 ServerApp] Restoring connection for 54958526-0c79-4d6b-a94f-17896f2fd958:7d4d02a7-9bec-41ff-aceb-c1324ec842c7
+[I 2024-01-19 15:21:27.386 ServerApp] Connecting to kernel 99efa960-06f7-443b-9f48-5a09d1fbdc4c.
+[I 2024-01-19 15:21:27.386 ServerApp] Restoring connection for 99efa960-06f7-443b-9f48-5a09d1fbdc4c:adf4af8b-9d3b-432a-a870-9a0be065f162
+[I 2024-01-19 15:21:27.394 ServerApp] Connecting to kernel 4a84be57-d60d-4036-868b-5218c036973a.
+[I 2024-01-19 15:21:27.394 ServerApp] Restoring connection for 4a84be57-d60d-4036-868b-5218c036973a:d9d9bc0f-19b5-4312-8128-72bd6da122ae
+[I 2024-01-19 15:21:27.421 ServerApp] Connecting to kernel 0a2285b3-dbe4-488d-8d18-04b58f42cdb7.
+[I 2024-01-19 15:21:27.421 ServerApp] Restoring connection for 0a2285b3-dbe4-488d-8d18-04b58f42cdb7:4f639203-5c17-48b9-854b-fdd08bfb1467
+[I 2024-01-19 15:21:27.485 ServerApp] Connecting to kernel 89fbf4e3-6df6-488a-96ee-1c1184512f10.
+[I 2024-01-19 15:21:27.485 ServerApp] Restoring connection for 89fbf4e3-6df6-488a-96ee-1c1184512f10:aedb4a5a-bfd6-401d-ba9d-cf0426db3b55
+[I 2024-01-19 15:22:09.715 ServerApp] Starting buffering for 89fbf4e3-6df6-488a-96ee-1c1184512f10:aedb4a5a-bfd6-401d-ba9d-cf0426db3b55
+[I 2024-01-19 15:22:09.718 ServerApp] Starting buffering for 0a2285b3-dbe4-488d-8d18-04b58f42cdb7:4f639203-5c17-48b9-854b-fdd08bfb1467
+[I 2024-01-19 15:22:09.719 ServerApp] Starting buffering for 4a84be57-d60d-4036-868b-5218c036973a:d9d9bc0f-19b5-4312-8128-72bd6da122ae
+[I 2024-01-19 15:22:09.724 ServerApp] Starting buffering for 99efa960-06f7-443b-9f48-5a09d1fbdc4c:adf4af8b-9d3b-432a-a870-9a0be065f162
+[I 2024-01-19 15:22:09.726 ServerApp] Starting buffering for 54958526-0c79-4d6b-a94f-17896f2fd958:7d4d02a7-9bec-41ff-aceb-c1324ec842c7
+[I 2024-01-19 15:22:09.728 ServerApp] Starting buffering for 41575b6a-c550-4d9f-8da7-ed9bccafc21b:4692b866-0764-41af-a3f1-7fa662564ee9
+[I 2024-01-19 15:22:09.734 ServerApp] Starting buffering for 960411f5-d0ca-4ce7-acb6-4276d131c6d1:2f4d0952-c055-42b5-8bf0-957fc50235f2
+[I 2024-01-19 15:22:09.735 ServerApp] Starting buffering for 17af5adc-b1f2-444b-adf4-29eb4c0ef186:a611a67e-8052-415e-adf7-72a63456c62f
+[I 2024-01-19 15:22:09.739 ServerApp] Starting buffering for 65828258-ffe5-4e7e-ad6f-36a9d965f9ee:5073e655-b2ef-403b-ad30-46e026dc5b49
+[I 2024-01-19 15:22:09.740 ServerApp] Starting buffering for 013e159d-303f-446d-9b5a-39aeb0c7c748:bb9714b0-09c2-44cd-a56d-33ffa8bc51c1
+[I 2024-01-19 15:22:09.741 ServerApp] Starting buffering for 1a635cee-db61-4fb5-bf18-34f75ca1f1de:783c8df0-6094-46de-b980-c2e62be5adef
+[I 2024-01-19 15:22:09.779 ServerApp] Connecting to kernel 89fbf4e3-6df6-488a-96ee-1c1184512f10.
+[I 2024-01-19 15:22:09.779 ServerApp] Restoring connection for 89fbf4e3-6df6-488a-96ee-1c1184512f10:aedb4a5a-bfd6-401d-ba9d-cf0426db3b55
+[I 2024-01-19 15:22:09.805 ServerApp] Connecting to kernel 0a2285b3-dbe4-488d-8d18-04b58f42cdb7.
+[I 2024-01-19 15:22:09.806 ServerApp] Restoring connection for 0a2285b3-dbe4-488d-8d18-04b58f42cdb7:4f639203-5c17-48b9-854b-fdd08bfb1467
+[I 2024-01-19 15:22:09.857 ServerApp] Connecting to kernel 4a84be57-d60d-4036-868b-5218c036973a.
+[I 2024-01-19 15:22:09.857 ServerApp] Restoring connection for 4a84be57-d60d-4036-868b-5218c036973a:d9d9bc0f-19b5-4312-8128-72bd6da122ae
+[I 2024-01-19 15:22:09.895 ServerApp] Connecting to kernel 99efa960-06f7-443b-9f48-5a09d1fbdc4c.
+[I 2024-01-19 15:22:09.895 ServerApp] Restoring connection for 99efa960-06f7-443b-9f48-5a09d1fbdc4c:adf4af8b-9d3b-432a-a870-9a0be065f162
+[I 2024-01-19 15:22:09.923 ServerApp] Connecting to kernel 54958526-0c79-4d6b-a94f-17896f2fd958.
+[I 2024-01-19 15:22:09.924 ServerApp] Restoring connection for 54958526-0c79-4d6b-a94f-17896f2fd958:7d4d02a7-9bec-41ff-aceb-c1324ec842c7
+[I 2024-01-19 15:22:09.951 ServerApp] Connecting to kernel 960411f5-d0ca-4ce7-acb6-4276d131c6d1.
+[I 2024-01-19 15:22:09.951 ServerApp] Restoring connection for 960411f5-d0ca-4ce7-acb6-4276d131c6d1:2f4d0952-c055-42b5-8bf0-957fc50235f2
+[I 2024-01-19 15:22:09.980 ServerApp] Connecting to kernel 41575b6a-c550-4d9f-8da7-ed9bccafc21b.
+[I 2024-01-19 15:22:09.980 ServerApp] Restoring connection for 41575b6a-c550-4d9f-8da7-ed9bccafc21b:4692b866-0764-41af-a3f1-7fa662564ee9
+[I 2024-01-19 15:22:10.005 ServerApp] Connecting to kernel 17af5adc-b1f2-444b-adf4-29eb4c0ef186.
+[I 2024-01-19 15:22:10.006 ServerApp] Restoring connection for 17af5adc-b1f2-444b-adf4-29eb4c0ef186:a611a67e-8052-415e-adf7-72a63456c62f
+[I 2024-01-19 15:22:10.058 ServerApp] Connecting to kernel 013e159d-303f-446d-9b5a-39aeb0c7c748.
+[I 2024-01-19 15:22:10.058 ServerApp] Restoring connection for 013e159d-303f-446d-9b5a-39aeb0c7c748:bb9714b0-09c2-44cd-a56d-33ffa8bc51c1
+[I 2024-01-19 15:22:10.085 ServerApp] Connecting to kernel 65828258-ffe5-4e7e-ad6f-36a9d965f9ee.
+[I 2024-01-19 15:22:10.085 ServerApp] Restoring connection for 65828258-ffe5-4e7e-ad6f-36a9d965f9ee:5073e655-b2ef-403b-ad30-46e026dc5b49
+[I 2024-01-19 15:22:10.130 ServerApp] Connecting to kernel 1a635cee-db61-4fb5-bf18-34f75ca1f1de.
+[I 2024-01-19 15:22:10.130 ServerApp] Restoring connection for 1a635cee-db61-4fb5-bf18-34f75ca1f1de:783c8df0-6094-46de-b980-c2e62be5adef
+[I 2024-01-19 15:40:16.244 ServerApp] Creating new notebook in /ml/nn
+[I 2024-01-19 15:40:17.024 ServerApp] Kernel started: 6439b9a6-88d6-45c1-b9d1-49d533a6706f
+[I 2024-01-19 15:40:18.095 ServerApp] Connecting to kernel 6439b9a6-88d6-45c1-b9d1-49d533a6706f.
+[W 2024-01-19 15:40:36.557 ServerApp] delete /ml/nn/softmax.py
+[I 2024-01-19 15:42:17.520 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 15:59:10.561 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:01:11.558 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:03:11.590 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:05:12.565 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:07:12.602 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:09:12.628 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:11:12.657 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:13:12.696 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:15:12.778 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:17:12.807 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:21:13.569 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:23:14.577 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:25:15.574 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:29:16.580 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:31:17.581 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:33:18.811 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:35:19.589 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 16:35:45.046 ServerApp] Creating new file in 
+[I 2024-01-19 16:37:45.648 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:39:45.679 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:41:45.702 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:43:45.734 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:44:20.324 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:46:20.353 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:48:20.385 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:50:20.598 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:52:20.633 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:54:20.664 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:56:20.697 ServerApp] Saving file at /公式.md
+[I 2024-01-19 16:58:20.743 ServerApp] Saving file at /公式.md
+[I 2024-01-19 17:00:20.769 ServerApp] Saving file at /公式.md
+[I 2024-01-19 17:02:20.800 ServerApp] Saving file at /公式.md
+[I 2024-01-19 17:04:20.835 ServerApp] Saving file at /公式.md
+[I 2024-01-19 17:06:20.867 ServerApp] Saving file at /公式.md
+[I 2024-01-19 17:08:20.901 ServerApp] Saving file at /公式.md
+[I 2024-01-19 17:10:20.931 ServerApp] Saving file at /公式.md
+[I 2024-01-19 17:22:35.527 ServerApp] Starting buffering for 6439b9a6-88d6-45c1-b9d1-49d533a6706f:d89a57bb-21d5-4eca-a004-41275d3d2137
+[I 2024-01-19 17:22:35.529 ServerApp] Starting buffering for 1a635cee-db61-4fb5-bf18-34f75ca1f1de:783c8df0-6094-46de-b980-c2e62be5adef
+[I 2024-01-19 17:22:35.530 ServerApp] Starting buffering for 41575b6a-c550-4d9f-8da7-ed9bccafc21b:4692b866-0764-41af-a3f1-7fa662564ee9
+[I 2024-01-19 17:22:35.531 ServerApp] Starting buffering for 17af5adc-b1f2-444b-adf4-29eb4c0ef186:a611a67e-8052-415e-adf7-72a63456c62f
+[I 2024-01-19 17:22:35.532 ServerApp] Starting buffering for 960411f5-d0ca-4ce7-acb6-4276d131c6d1:2f4d0952-c055-42b5-8bf0-957fc50235f2
+[I 2024-01-19 17:22:35.533 ServerApp] Starting buffering for 54958526-0c79-4d6b-a94f-17896f2fd958:7d4d02a7-9bec-41ff-aceb-c1324ec842c7
+[I 2024-01-19 17:22:35.534 ServerApp] Starting buffering for 99efa960-06f7-443b-9f48-5a09d1fbdc4c:adf4af8b-9d3b-432a-a870-9a0be065f162
+[I 2024-01-19 17:22:35.535 ServerApp] Starting buffering for 4a84be57-d60d-4036-868b-5218c036973a:d9d9bc0f-19b5-4312-8128-72bd6da122ae
+[I 2024-01-19 17:22:35.536 ServerApp] Starting buffering for 89fbf4e3-6df6-488a-96ee-1c1184512f10:aedb4a5a-bfd6-401d-ba9d-cf0426db3b55
+[I 2024-01-19 17:22:35.537 ServerApp] Starting buffering for 65828258-ffe5-4e7e-ad6f-36a9d965f9ee:5073e655-b2ef-403b-ad30-46e026dc5b49
+[I 2024-01-19 17:22:35.538 ServerApp] Starting buffering for 013e159d-303f-446d-9b5a-39aeb0c7c748:bb9714b0-09c2-44cd-a56d-33ffa8bc51c1
+[I 2024-01-19 17:22:35.539 ServerApp] Starting buffering for 0a2285b3-dbe4-488d-8d18-04b58f42cdb7:4f639203-5c17-48b9-854b-fdd08bfb1467
+[I 2024-01-19 17:22:35.545 ServerApp] Connecting to kernel 6439b9a6-88d6-45c1-b9d1-49d533a6706f.
+[I 2024-01-19 17:22:35.546 ServerApp] Restoring connection for 6439b9a6-88d6-45c1-b9d1-49d533a6706f:d89a57bb-21d5-4eca-a004-41275d3d2137
+[I 2024-01-19 17:22:35.570 ServerApp] Connecting to kernel 1a635cee-db61-4fb5-bf18-34f75ca1f1de.
+[I 2024-01-19 17:22:35.583 ServerApp] Restoring connection for 1a635cee-db61-4fb5-bf18-34f75ca1f1de:783c8df0-6094-46de-b980-c2e62be5adef
+[I 2024-01-19 17:22:35.653 ServerApp] Connecting to kernel 41575b6a-c550-4d9f-8da7-ed9bccafc21b.
+[I 2024-01-19 17:22:35.655 ServerApp] Restoring connection for 41575b6a-c550-4d9f-8da7-ed9bccafc21b:4692b866-0764-41af-a3f1-7fa662564ee9
+[I 2024-01-19 17:22:35.687 ServerApp] Connecting to kernel 960411f5-d0ca-4ce7-acb6-4276d131c6d1.
+[I 2024-01-19 17:22:35.687 ServerApp] Restoring connection for 960411f5-d0ca-4ce7-acb6-4276d131c6d1:2f4d0952-c055-42b5-8bf0-957fc50235f2
+[I 2024-01-19 17:22:35.741 ServerApp] Connecting to kernel 17af5adc-b1f2-444b-adf4-29eb4c0ef186.
+[I 2024-01-19 17:22:35.741 ServerApp] Restoring connection for 17af5adc-b1f2-444b-adf4-29eb4c0ef186:a611a67e-8052-415e-adf7-72a63456c62f
+[I 2024-01-19 17:22:35.786 ServerApp] Connecting to kernel 54958526-0c79-4d6b-a94f-17896f2fd958.
+[I 2024-01-19 17:22:35.787 ServerApp] Restoring connection for 54958526-0c79-4d6b-a94f-17896f2fd958:7d4d02a7-9bec-41ff-aceb-c1324ec842c7
+[I 2024-01-19 17:22:35.906 ServerApp] Connecting to kernel 99efa960-06f7-443b-9f48-5a09d1fbdc4c.
+[I 2024-01-19 17:22:35.906 ServerApp] Restoring connection for 99efa960-06f7-443b-9f48-5a09d1fbdc4c:adf4af8b-9d3b-432a-a870-9a0be065f162
+[I 2024-01-19 17:22:35.929 ServerApp] Connecting to kernel 89fbf4e3-6df6-488a-96ee-1c1184512f10.
+[I 2024-01-19 17:22:35.930 ServerApp] Restoring connection for 89fbf4e3-6df6-488a-96ee-1c1184512f10:aedb4a5a-bfd6-401d-ba9d-cf0426db3b55
+[I 2024-01-19 17:22:35.962 ServerApp] Connecting to kernel 4a84be57-d60d-4036-868b-5218c036973a.
+[I 2024-01-19 17:22:35.962 ServerApp] Restoring connection for 4a84be57-d60d-4036-868b-5218c036973a:d9d9bc0f-19b5-4312-8128-72bd6da122ae
+[I 2024-01-19 17:22:36.008 ServerApp] Connecting to kernel 65828258-ffe5-4e7e-ad6f-36a9d965f9ee.
+[I 2024-01-19 17:22:36.008 ServerApp] Restoring connection for 65828258-ffe5-4e7e-ad6f-36a9d965f9ee:5073e655-b2ef-403b-ad30-46e026dc5b49
+[I 2024-01-19 17:22:36.054 ServerApp] Connecting to kernel 013e159d-303f-446d-9b5a-39aeb0c7c748.
+[I 2024-01-19 17:22:36.054 ServerApp] Restoring connection for 013e159d-303f-446d-9b5a-39aeb0c7c748:bb9714b0-09c2-44cd-a56d-33ffa8bc51c1
+[I 2024-01-19 17:22:36.086 ServerApp] Connecting to kernel 0a2285b3-dbe4-488d-8d18-04b58f42cdb7.
+[I 2024-01-19 17:22:36.087 ServerApp] Restoring connection for 0a2285b3-dbe4-488d-8d18-04b58f42cdb7:4f639203-5c17-48b9-854b-fdd08bfb1467
+[I 2024-01-19 17:31:10.746 ServerApp] Starting buffering for 0a2285b3-dbe4-488d-8d18-04b58f42cdb7:4f639203-5c17-48b9-854b-fdd08bfb1467
+[I 2024-01-19 17:31:10.748 ServerApp] Starting buffering for 65828258-ffe5-4e7e-ad6f-36a9d965f9ee:5073e655-b2ef-403b-ad30-46e026dc5b49
+[I 2024-01-19 17:31:10.749 ServerApp] Starting buffering for 4a84be57-d60d-4036-868b-5218c036973a:d9d9bc0f-19b5-4312-8128-72bd6da122ae
+[I 2024-01-19 17:31:10.750 ServerApp] Starting buffering for 89fbf4e3-6df6-488a-96ee-1c1184512f10:aedb4a5a-bfd6-401d-ba9d-cf0426db3b55
+[I 2024-01-19 17:31:10.750 ServerApp] Starting buffering for 99efa960-06f7-443b-9f48-5a09d1fbdc4c:adf4af8b-9d3b-432a-a870-9a0be065f162
+[I 2024-01-19 17:31:10.751 ServerApp] Starting buffering for 54958526-0c79-4d6b-a94f-17896f2fd958:7d4d02a7-9bec-41ff-aceb-c1324ec842c7
+[I 2024-01-19 17:31:10.752 ServerApp] Starting buffering for 17af5adc-b1f2-444b-adf4-29eb4c0ef186:a611a67e-8052-415e-adf7-72a63456c62f
+[I 2024-01-19 17:31:10.753 ServerApp] Starting buffering for 960411f5-d0ca-4ce7-acb6-4276d131c6d1:2f4d0952-c055-42b5-8bf0-957fc50235f2
+[I 2024-01-19 17:31:10.753 ServerApp] Starting buffering for 41575b6a-c550-4d9f-8da7-ed9bccafc21b:4692b866-0764-41af-a3f1-7fa662564ee9
+[I 2024-01-19 17:31:10.754 ServerApp] Starting buffering for 6439b9a6-88d6-45c1-b9d1-49d533a6706f:d89a57bb-21d5-4eca-a004-41275d3d2137
+[I 2024-01-19 17:31:10.754 ServerApp] Starting buffering for 1a635cee-db61-4fb5-bf18-34f75ca1f1de:783c8df0-6094-46de-b980-c2e62be5adef
+[I 2024-01-19 17:31:10.755 ServerApp] Starting buffering for 013e159d-303f-446d-9b5a-39aeb0c7c748:bb9714b0-09c2-44cd-a56d-33ffa8bc51c1
+[I 2024-01-19 17:31:10.815 ServerApp] Connecting to kernel 0a2285b3-dbe4-488d-8d18-04b58f42cdb7.
+[I 2024-01-19 17:31:10.816 ServerApp] Restoring connection for 0a2285b3-dbe4-488d-8d18-04b58f42cdb7:4f639203-5c17-48b9-854b-fdd08bfb1467
+[I 2024-01-19 17:31:10.844 ServerApp] Connecting to kernel 65828258-ffe5-4e7e-ad6f-36a9d965f9ee.
+[I 2024-01-19 17:31:10.845 ServerApp] Restoring connection for 65828258-ffe5-4e7e-ad6f-36a9d965f9ee:5073e655-b2ef-403b-ad30-46e026dc5b49
+[I 2024-01-19 17:31:10.884 ServerApp] Connecting to kernel 4a84be57-d60d-4036-868b-5218c036973a.
+[I 2024-01-19 17:31:10.887 ServerApp] Restoring connection for 4a84be57-d60d-4036-868b-5218c036973a:d9d9bc0f-19b5-4312-8128-72bd6da122ae
+[I 2024-01-19 17:31:10.932 ServerApp] Connecting to kernel 89fbf4e3-6df6-488a-96ee-1c1184512f10.
+[I 2024-01-19 17:31:10.933 ServerApp] Restoring connection for 89fbf4e3-6df6-488a-96ee-1c1184512f10:aedb4a5a-bfd6-401d-ba9d-cf0426db3b55
+[I 2024-01-19 17:31:10.987 ServerApp] Connecting to kernel 99efa960-06f7-443b-9f48-5a09d1fbdc4c.
+[I 2024-01-19 17:31:10.988 ServerApp] Restoring connection for 99efa960-06f7-443b-9f48-5a09d1fbdc4c:adf4af8b-9d3b-432a-a870-9a0be065f162
+[I 2024-01-19 17:31:11.048 ServerApp] Connecting to kernel 54958526-0c79-4d6b-a94f-17896f2fd958.
+[I 2024-01-19 17:31:11.049 ServerApp] Restoring connection for 54958526-0c79-4d6b-a94f-17896f2fd958:7d4d02a7-9bec-41ff-aceb-c1324ec842c7
+[I 2024-01-19 17:31:11.108 ServerApp] Connecting to kernel 17af5adc-b1f2-444b-adf4-29eb4c0ef186.
+[I 2024-01-19 17:31:11.109 ServerApp] Restoring connection for 17af5adc-b1f2-444b-adf4-29eb4c0ef186:a611a67e-8052-415e-adf7-72a63456c62f
+[I 2024-01-19 17:31:11.145 ServerApp] Connecting to kernel 960411f5-d0ca-4ce7-acb6-4276d131c6d1.
+[I 2024-01-19 17:31:11.146 ServerApp] Restoring connection for 960411f5-d0ca-4ce7-acb6-4276d131c6d1:2f4d0952-c055-42b5-8bf0-957fc50235f2
+[I 2024-01-19 17:31:11.163 ServerApp] Connecting to kernel 41575b6a-c550-4d9f-8da7-ed9bccafc21b.
+[I 2024-01-19 17:31:11.164 ServerApp] Restoring connection for 41575b6a-c550-4d9f-8da7-ed9bccafc21b:4692b866-0764-41af-a3f1-7fa662564ee9
+[I 2024-01-19 17:31:11.207 ServerApp] Connecting to kernel 6439b9a6-88d6-45c1-b9d1-49d533a6706f.
+[I 2024-01-19 17:31:11.207 ServerApp] Restoring connection for 6439b9a6-88d6-45c1-b9d1-49d533a6706f:d89a57bb-21d5-4eca-a004-41275d3d2137
+[I 2024-01-19 17:31:11.244 ServerApp] Connecting to kernel 1a635cee-db61-4fb5-bf18-34f75ca1f1de.
+[I 2024-01-19 17:31:11.245 ServerApp] Restoring connection for 1a635cee-db61-4fb5-bf18-34f75ca1f1de:783c8df0-6094-46de-b980-c2e62be5adef
+[I 2024-01-19 17:31:11.423 ServerApp] Connecting to kernel 013e159d-303f-446d-9b5a-39aeb0c7c748.
+[I 2024-01-19 17:31:11.423 ServerApp] Restoring connection for 013e159d-303f-446d-9b5a-39aeb0c7c748:bb9714b0-09c2-44cd-a56d-33ffa8bc51c1
+[I 2024-01-19 17:33:10.731 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 17:34:27.948 ServerApp] Saving file at /公式.md
+[I 2024-01-19 17:35:11.732 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 17:53:59.758 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 17:55:59.798 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 17:57:00.754 ServerApp] Saving file at /markdown 公式.md
+[I 2024-01-19 17:59:00.787 ServerApp] Saving file at /markdown 公式.md
+[I 2024-01-19 17:59:59.854 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:01:59.892 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:03:59.931 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:05:59.824 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:07:59.847 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:09:59.877 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:13:59.912 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:15:59.952 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:17:59.988 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:20:00.015 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:22:00.046 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:24:00.071 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:26:00.093 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:28:00.122 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:30:00.156 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:32:00.183 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:33:09.122 ServerApp] Starting buffering for 41575b6a-c550-4d9f-8da7-ed9bccafc21b:4692b866-0764-41af-a3f1-7fa662564ee9
+[I 2024-01-19 18:33:09.666 ServerApp] Starting buffering for 99efa960-06f7-443b-9f48-5a09d1fbdc4c:adf4af8b-9d3b-432a-a870-9a0be065f162
+[I 2024-01-19 18:33:10.879 ServerApp] Starting buffering for 1a635cee-db61-4fb5-bf18-34f75ca1f1de:783c8df0-6094-46de-b980-c2e62be5adef
+[I 2024-01-19 18:33:11.417 ServerApp] Starting buffering for 013e159d-303f-446d-9b5a-39aeb0c7c748:bb9714b0-09c2-44cd-a56d-33ffa8bc51c1
+[I 2024-01-19 18:33:11.589 ServerApp] Starting buffering for 65828258-ffe5-4e7e-ad6f-36a9d965f9ee:5073e655-b2ef-403b-ad30-46e026dc5b49
+[I 2024-01-19 18:33:11.762 ServerApp] Starting buffering for 17af5adc-b1f2-444b-adf4-29eb4c0ef186:a611a67e-8052-415e-adf7-72a63456c62f
+[I 2024-01-19 18:33:11.932 ServerApp] Starting buffering for 89fbf4e3-6df6-488a-96ee-1c1184512f10:aedb4a5a-bfd6-401d-ba9d-cf0426db3b55
+[I 2024-01-19 18:33:12.103 ServerApp] Starting buffering for 960411f5-d0ca-4ce7-acb6-4276d131c6d1:2f4d0952-c055-42b5-8bf0-957fc50235f2
+[I 2024-01-19 18:33:12.274 ServerApp] Starting buffering for 54958526-0c79-4d6b-a94f-17896f2fd958:7d4d02a7-9bec-41ff-aceb-c1324ec842c7
+[I 2024-01-19 18:33:12.450 ServerApp] Starting buffering for 4a84be57-d60d-4036-868b-5218c036973a:d9d9bc0f-19b5-4312-8128-72bd6da122ae
+[I 2024-01-19 18:33:12.614 ServerApp] Starting buffering for 0a2285b3-dbe4-488d-8d18-04b58f42cdb7:4f639203-5c17-48b9-854b-fdd08bfb1467
+[I 2024-01-19 18:34:00.218 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 18:34:57.804 ServerApp] Saving file at /markdown 公式.md
+[I 2024-01-19 18:38:00.635 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:19:00.715 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:21:00.748 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:23:01.714 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:29:02.719 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:31:02.755 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:33:02.791 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:35:02.821 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:43:03.735 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:45:03.795 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:47:03.822 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:49:04.728 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:51:04.765 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:53:04.801 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:55:04.838 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:57:04.868 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 19:59:05.742 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:01:05.770 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:03:05.815 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:05:05.851 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:09:05.884 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:11:06.749 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:13:06.871 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[W 2024-01-19 20:13:14.312 ServerApp] 404 GET /files/ml/nn/data/img/softmax_loss.webp?_xsrf=[secret]&1705666394281 (3f291f1d92b64b2da22ebd0886746acf@::1) 1.92ms referer=http://localhost:8888/lab/workspaces/auto-g/tree/ml/nn/softmax.ipynb
+[I 2024-01-19 20:15:06.917 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:17:07.828 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:19:07.856 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:21:07.897 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:23:07.933 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:25:07.965 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:27:08.005 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:29:08.028 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:31:08.078 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:33:08.116 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:35:08.155 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:37:08.185 ServerApp] Saving file at /ml/nn/softmax.ipynb
+[I 2024-01-19 20:38:46.598 ServerApp] Starting buffering for 6439b9a6-88d6-45c1-b9d1-49d533a6706f:d89a57bb-21d5-4eca-a004-41275d3d2137
+[I 2024-01-19 20:38:46.685 ServerApp] Connecting to kernel 6439b9a6-88d6-45c1-b9d1-49d533a6706f.
+[I 2024-01-19 20:38:46.701 ServerApp] Restoring connection for 6439b9a6-88d6-45c1-b9d1-49d533a6706f:d89a57bb-21d5-4eca-a004-41275d3d2137
+[I 2024-01-19 20:39:35.652 ServerApp] Saving file at /ml/nn/softmax.ipynb
