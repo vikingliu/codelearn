@@ -19,6 +19,7 @@ $$
 |\lim	|$\lim$ | 极限函数|
 |\to	| $\to$ | 箭头|
 |\vec{a}|	$\vec{a}$|矢量a|
+|\hat | $\hat \theta$| 帽子|
 |90^\circ| $90^\circ$| 度数的圆圈|
 |\uparrow|	$\uparrow$|上箭头|
 |\Uparrow| $\Uparrow$|双上箭头|
