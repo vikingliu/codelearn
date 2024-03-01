@@ -8,14 +8,7 @@ sys.path.append('../../../')
 from utils import nn_utils
 
 
-# attention的优点
-# 1.参数少: 模型复杂度跟 CNN、RNN 相比，复杂度更小，参数也更少。所以对算力的要求也就更小
-# 2.速度快: Attention 解决了 RNN 不能并行计算的问题。Attention机制每一步计算不依赖于上一步的计算结果，因此可以和CNN一样并行处理。
-# 3.效果好: 在 Attention 机制引入之前，有一个问题大家一直很苦恼：长距离的信息会被弱化，就好像记忆能力弱的人，记不住过去的事情是一样的
 
-# 第一步：query 和 key 进行相似度计算，得到权值
-# 第二步：将权值进行归一化，得到直接可用的权重
-# 第三步：将权重和 value 进行加权求和
 # attention(Q,K,V) = Σsoftmax(f(Q, Ki))Vi
 # f(Q, Ki) = Q.T · Ki                   dot
 #          = Q.T · Wα · Ki              general
